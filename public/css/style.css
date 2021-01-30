@@ -1,0 +1,458 @@
+html{
+   scroll-behavior: smooth;
+}
+
+.alert{
+    position: absolute;
+     z-index:100;
+    top:60px;
+}
+.backstg{
+    padding-top: 50px;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.jumbtext{
+    text-align: right;
+    padding-top: 50px;
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.back{
+    padding-top: 50px;
+    position: absolute;
+    height: 700px;
+    right: 0px;
+}
+.icicle{
+    height: 204px;
+    right: 0px;
+    padding-top: 88px;
+    padding-right: 17px;
+    position: absolute;
+    z-index: 10;
+}
+.water-1{
+    height: 20px;
+    position: absolute;
+    z-index: 10;
+    right: 32px;
+    top: 166px;
+    animation-name: water-1;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    opacity: 100%;
+}
+.water-2{
+    height: 20px;
+    position: absolute;
+    z-index: 10;
+    right: 96px;
+    top: 203px;
+    animation-name: water-2;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    opacity: 100%;
+}
+.water-3{
+    height: 20px;
+    position: absolute;
+    z-index: 10;
+    right: 128px;
+    top: 150px;
+    animation-name: water-3;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    opacity: 100%;
+}
+.sky{
+    height: 600px;
+}
+.snow{
+position: absolute;
+z-index: 10;
+top: 800px;
+}
+.service{
+    padding-top: 20px;
+    background-image: linear-gradient(to bottom,#F2F2F2,#3ec4d6,#5e6472);
+}
+.install{
+    padding-top: 20px;
+    background-image: linear-gradient(to top,#3ec4d6,#5e6472);
+}
+.product{
+background-size: cover;
+}
+.air_image{
+    padding-top: 5px;
+    max-height: 200px;
+    padding-bottom: 5px;
+}
+.img-thumbnail{
+    background-color: #adb5bd !important;
+    border-color: #adb5bd !important;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.service_img{
+    height: 180px;
+    padding-left: 80px;
+}
+.loading_img{
+    height: 120px;
+}
+.thumb_icicle{
+    position: absolute;
+    z-index: 2;
+    height: 600px;
+    top: 8px;
+    left: -5px;
+    width: 100%;
+    opacity: 0.3;
+}
+.tum_text{
+    size: 24px;
+    font-weight: bold;
+}
+.title{
+    text-align: center;
+    color: #F2F2F2;
+}
+.serv{
+    background-color: #33415c;
+    height: 250px;
+}
+.serv_text{
+  color: #F2F2F2;
+  text-align: justify;
+}
+.serv_img{
+    height: 300px;
+    padding-top: 40px;
+}
+.underwater{
+background-color: #82c8ec;
+padding-bottom: 10px;
+}
+.fish{
+    height: 100px;
+    padding-left: 100px;
+}
+.btn-primary{
+background-color: #F2F2F2 !important;
+color: #33415c;
+border-color: #F2F2F2 !important;
+}
+.btn-primary:hover{
+color: #F2F2F2;
+background-color: #33415c !important;
+border-color: #33415c !important;
+}
+.footer{
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 20px;
+}
+.bubble1{
+    position: absolute;
+    z-index: 10;
+    left: 100px;
+    top: 8px;
+    animation-name: bubble;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+}
+.bubble2{
+    position: absolute;
+    z-index: 10;
+    left: 100px;
+    top: 8px;
+    animation-name: bubble;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+}
+.fishes{
+    height: 120px;
+    position: absolute;
+    animation: fishes;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+}
+.octopus{
+    height: 150px;
+}
+.underwater2{
+    background-image: linear-gradient(to bottom,#82c8ec,#0077b6,#023e8a);
+}
+.deepwater{
+    background-color: #023e8a;
+    color: #F2F2F2;
+}
+.carimg{
+    height: 30% !important;
+    width: auto !important;
+    max-height: 800px !important;
+}
+.carli{
+    background-color: #0077b6 !important;
+}
+@keyframes fishes{
+    from {
+        margin-left: 90%;
+      }
+
+      to {
+        margin-left: -10%;
+      }
+    }
+
+@keyframes water-1{
+    0%{
+        opacity: 100%;
+    }
+    30%{
+        opacity: 80%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    80%{
+        opacity: 20%;
+    }
+    100%{
+        opacity: 0%;
+        top: 200px;
+    }
+}
+@keyframes water-2{
+    0%{
+        opacity: 100%;
+    }
+    30%{
+        opacity: 80%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    80%{
+        opacity: 20%;
+    }
+    100%{
+        opacity: 0%;
+        top: 226px;
+    }
+}
+@keyframes water-3{
+    0%{
+        opacity: 100%;
+    }
+    30%{
+        opacity: 80%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    80%{
+        opacity: 20%;
+    }
+    100%{
+        opacity: 0%;
+        top: 175px;
+    }
+}
+@keyframes bubble{
+    0%{
+        opacity: 100%;
+    }
+    30%{
+        opacity: 80%;
+        left: 98px;
+    }
+    50%{
+        opacity: 50%;
+    }
+    80%{
+        opacity: 20%;
+        left:100px;
+    }
+    100%{
+        opacity: 0%;
+        top: 1px;
+    }
+}
+
+
+
+
+
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .text{
+        text-align: left;
+    }
+    .back{
+        position: absolute;
+        height: 600px;
+        right: 0px;
+    }
+    .backstg{
+        height: 600px;
+    }
+    .air_image{
+        padding-top: 5px;
+        max-height: 120px;
+    }
+    .octopus{
+        height: 100px;
+        text-align:center;
+    }
+    .loading_img{
+        height: 75px;
+    }
+    .serv{
+        padding-bottom: 10px;
+        height: 500px;
+    }
+    .thumb_icicle{
+        height: 300px;
+        left: -10px;
+    }
+    .sky{
+        height: 200px;
+    }
+    .snow{
+        top: 250px;
+    }.serv_img{
+        height: 150px;
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+}
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991px) {
+    .cloud{
+        top:668px;
+    }
+}
+/* tablets/desktops and up ———– */
+@media (min-width: 992px) and (max-width: 1199px) {
+    .text{
+        text-align: justify;
+        }
+    .back{
+        position: absolute;
+        height: 600px;
+        right: 0px;
+    }
+    .backstg{
+        height: 600px;
+    }
+    .jumbtext{
+        text-align: right;
+        padding-top: 50px;
+        font-size: 24px;
+    }
+    .icicle{
+        height: 160px;
+        right: 0px;
+        padding-top: 75px;
+        padding-right: 14px;
+    }
+    .water-1{
+        right: 24px;
+        top: 130px;
+        height: 15px;
+    }
+    .water-2{
+        right: 72px;
+        top: 156px;
+        height: 15px;
+    }
+    .water-3{
+        right: 95px;
+        top: 120px;
+        height: 15px;
+    }
+
+
+    .air_image{
+        padding-top: 5px;
+        max-height: 60px;
+    }
+    .thumb_icicle{
+        height: 400px;
+        left: -2px;
+    }
+    .loading_img{
+        height: 100px;
+    }
+    .serv_img{
+        height: 200px;
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+    .serv{
+        height: 300px;
+    }
+}
+/* large desktops and up ———– */
+@media screen and (min-width: 1200px) {
+    .text{
+        text-align: justify;
+        }
+    .jumbtext{
+        text-align: right;
+        padding-top: 40px;
+        font-size: 36px;
+        padding-right: 50px;
+    }
+    .icicle{
+        height: 200px;
+        right: 50px;
+        padding-top: 75px;
+        padding-right: 14px;
+    }
+    .water-1{
+        right: 80px;
+        top: 158px;
+        height: 20px;
+    }
+    .water-2{
+        right: 150px;
+        top: 192px;
+        height: 20px;
+    }
+    .water-3{
+        right: 184px;
+        top: 134px;
+        height: 20px;
+    }
+
+
+    .air_image{
+        padding-top: 5px;
+        max-height: 160px;
+    }
+    .thumb_icicle{
+        height: 300px;
+        left: -20px;
+
+    }
+    .loading_img{
+        height: 100px;
+    }
+    .serv_img{
+        height: 200px;
+        padding-left: 100px;
+        padding-top: 20px;
+    }
+    .serv{
+        height: 300px;
+    }
+     .snow{
+        top: 790px;
+    }
+}

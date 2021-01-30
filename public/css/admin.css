@@ -1,0 +1,33 @@
+body{
+    background-color: #F2f2f2;
+}
+.login{
+    padding-top: 100px;
+}
+.line{
+    border: #82c8ec 1px solid;
+}
+.login_img{
+    padding-left: 20px;
+    height: 150px;
+}
+.nincs{
+    padding-top: 100px;
+    color: #82c8ec;
+}
+.btn-primary{
+    background-color: #82c8ec !important;
+    border-color: #82c8ec !important;
+    color: #F2f2f2;
+}
+.link{
+    color: #F2f2f2;
+    float: right !important;
+}
+/* Extra small devices (phones, up to 480px) */
+@media screen and (max-width: 767px) {
+    .login_img{
+        padding-left: 120px;
+        height: 150px;
+    }
+}
